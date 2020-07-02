@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 .main{
     display: grid;
     grid-template-columns: repeat(4, 22%);
@@ -6,17 +9,28 @@
 }
 .sec-Item{
     background-color: rgb(94, 94, 94);
-    margin-bottom: 3vh;
     box-shadow: 0 0 4px gray;
     border-radius: 4px;
     color: rgb(255, 255, 255);
+    margin-bottom: 3vh;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .sec-Item > h5{
     text-align: left;
     padding: 0 5%;
 }
-.header-movies{
-    
+.sec-Item > a{
+    text-decoration: none;
+    color: white;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    padding: 8px 20px;
+    box-shadow: 0 0 4px rgb(31, 31, 31);
+    border-radius: 4px;
 }
 @media only screen and (max-width: 1200px) {
 
